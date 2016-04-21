@@ -13,6 +13,10 @@
 		E58C81201CC8C27D005E0C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58C811E1CC8C27D005E0C6A /* Main.storyboard */; };
 		E58C81221CC8C27D005E0C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58C81211CC8C27D005E0C6A /* Assets.xcassets */; };
 		E58C81251CC8C27D005E0C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58C81231CC8C27D005E0C6A /* LaunchScreen.storyboard */; };
+		E58C812E1CC8C29F005E0C6A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C812D1CC8C29F005E0C6A /* Person.m */; };
+		E58C81311CC8C5FB005E0C6A /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C81301CC8C5FB005E0C6A /* UIImage+Category.m */; };
+		E58C81341CC8CA6C005E0C6A /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C81331CC8CA6C005E0C6A /* NSObject+Category.m */; };
+		E58C81371CC8D003005E0C6A /* NSObject+Archieve.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C81361CC8D003005E0C6A /* NSObject+Archieve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		E58C81211CC8C27D005E0C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E58C81241CC8C27D005E0C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E58C81261CC8C27D005E0C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58C812C1CC8C29F005E0C6A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E58C812D1CC8C29F005E0C6A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E58C812F1CC8C5FB005E0C6A /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		E58C81301CC8C5FB005E0C6A /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		E58C81321CC8CA6C005E0C6A /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		E58C81331CC8CA6C005E0C6A /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+		E58C81351CC8D003005E0C6A /* NSObject+Archieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Archieve.h"; sourceTree = "<group>"; };
+		E58C81361CC8D003005E0C6A /* NSObject+Archieve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Archieve.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				E58C81231CC8C27D005E0C6A /* LaunchScreen.storyboard */,
 				E58C81261CC8C27D005E0C6A /* Info.plist */,
 				E58C81151CC8C27D005E0C6A /* Supporting Files */,
+				E58C812C1CC8C29F005E0C6A /* Person.h */,
+				E58C812D1CC8C29F005E0C6A /* Person.m */,
+				E58C812F1CC8C5FB005E0C6A /* UIImage+Category.h */,
+				E58C81301CC8C5FB005E0C6A /* UIImage+Category.m */,
+				E58C81321CC8CA6C005E0C6A /* NSObject+Category.h */,
+				E58C81331CC8CA6C005E0C6A /* NSObject+Category.m */,
+				E58C81351CC8D003005E0C6A /* NSObject+Archieve.h */,
+				E58C81361CC8D003005E0C6A /* NSObject+Archieve.m */,
 			);
 			path = RuntimePractice;
 			sourceTree = "<group>";
@@ -150,8 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58C811D1CC8C27D005E0C6A /* ViewController.m in Sources */,
+				E58C81371CC8D003005E0C6A /* NSObject+Archieve.m in Sources */,
 				E58C811A1CC8C27D005E0C6A /* AppDelegate.m in Sources */,
+				E58C812E1CC8C29F005E0C6A /* Person.m in Sources */,
 				E58C81171CC8C27D005E0C6A /* main.m in Sources */,
+				E58C81311CC8C5FB005E0C6A /* UIImage+Category.m in Sources */,
+				E58C81341CC8CA6C005E0C6A /* NSObject+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				E58C812B1CC8C27D005E0C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
